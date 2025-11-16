@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Flask / local data
+uploads/
+instance/
+
+# Jupyter (for later)
+.ipynb_checkpoints/
