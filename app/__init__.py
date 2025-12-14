@@ -14,4 +14,7 @@ def create_app():
     from .routes import main_bp
     app.register_blueprint(main_bp)
 
+    # Adds file upload limit
+    app.config["MAX_CONTENT_LENGTH"] = 20 * 1024 * 1024  # 20 MB
+
     return app
